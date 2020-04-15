@@ -1,0 +1,12 @@
+1. django-admin startproject django_restapi
+2. change db connection in 'settings.py'
+3. creata app 'data' : python manage.py startapp data (app for models)
+4. import schema from from db to file models.py:  python manage.py inspectdb > data/models.py
+5. clean up models (remove unnecessery
+6. create app 'api' : python manage.py startapp api (app for endpoinnts)
+7. create admin register (to see data on admin panel)
+8. install:  
+    pip install djangorestframework
+    pip install markdown       # Markdown support for the browsable API.
+    pip install django-filter  # Filtering support
+9. create serializers.py in api
